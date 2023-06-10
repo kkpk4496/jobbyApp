@@ -1,0 +1,31 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+.not-found-img {
+  width: 550px;
+}
+@media screen and (max-width: 767px) {
+  .not-found-img {
+    width: 300px;
+  }
+}
+h1 {
+  color: #ffffff;
+  font-family: roboto;
+}
+p {
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+  p {
+    width: 330px;
+    text-align: center;
+  }
+}
